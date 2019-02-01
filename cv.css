@@ -1,25 +1,40 @@
+body {
+	margin-left:  2em;
+	margin-right: 2em;
+}
+
+hr {
+	border: 0.5px solid black;
+	margin-bottom: 2em;
+}
+
+a {
+	text-decoration: none;
+	font-size:       8pt;
+}
+
 #title_container {
 	text-align:    center;
-	font-size:     18pt;
+	font-size:     24pt;
 }
 
 #contact_container {
 	margin-left:   auto;
 	margin-right:  auto;
-	font-size:     8pt;
+	font-size:     10pt;
 	display:       table;
 	margin-top:    1em;
 	margin-bottom: 1em;
 }
 
 .contact {
-	margin-left: 1em;
-	margin-right: 1em;
+	margin-left:  1em;
+	margin-right: 0.25em;
 }
 
 .contact_key {
-	font-weight: bold;
-	margin-right: 1em;
+	font-weight:  bold;
+	margin-right: 0.25em;
 }
 
 .contact_value {
@@ -27,28 +42,28 @@
 }
 
 .section_title {
-	font-size: 11pt;
-	font-weight: bold;
+	font-size:      14pt;
+	font-weight:    bold;
 	vertical-align: text-top;
-	padding-right: 1em;
+	padding-right:  1em;
 }
 
-.section_content{
-	font-size: 8pt;
+.section_content {
+	font-size:      10pt;
 	padding-bottom: 2em;
+	padding-top:    0.25em;
 }
 
-#education_table {
-	font-size: 8pt;
+.institution {
+	margin-bottom: 1em;
 }
 
 .institution_name {
-	font-weight: bold;
-	padding-right: 1em;
+	font-weight:   bold;
 }
 
-.institution_dates {
-	padding-right: 1em;
+.institution_result {
+	margin-left: 1em;
 }
 
 .skill {
@@ -61,7 +76,7 @@
 
 .skill_list {
 	margin-block-start: 0;
-	margin-block-end: 0;
+	margin-block-end:   0;
 }
 
 .experience {
