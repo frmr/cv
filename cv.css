@@ -1,21 +1,32 @@
 body {
 	margin-left:  2em;
 	margin-right: 2em;
+	font-size:    10pt;
+	font-family: 'Montserrat';
 }
 
 hr {
-	border: 0.5px solid black;
-	margin-bottom: 2em;
+	border: 0.5px solid #AAA;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 
 a {
 	text-decoration: none;
-	font-size:       8pt;
 }
 
-#title_container {
+ul {
+	margin-top: 0;
+}
+
+@media print {
+    .pagebreak { page-break-before: always; }
+}
+
+#name {
 	text-align:    center;
-	font-size:     24pt;
+	font-size:     22pt;
+	font-weight:   bold;
 }
 
 #contact_container {
@@ -24,7 +35,6 @@ a {
 	font-size:     10pt;
 	display:       table;
 	margin-top:    1em;
-	margin-bottom: 1em;
 }
 
 .contact {
@@ -41,60 +51,27 @@ a {
 	
 }
 
-.section_title {
-	font-size:      14pt;
-	font-weight:    bold;
-	vertical-align: text-top;
-	padding-right:  1em;
+.section {
+
 }
 
-.section_content {
-	font-size:      10pt;
-	padding-bottom: 2em;
-	padding-top:    0.25em;
+.title {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.subsection {
+	margin-top: 1em;
+}
+
+.subtitle {
+	font-weight: bold;
 }
 
 .institution {
-	margin-bottom: 1em;
-}
-
-.institution_name {
-	font-weight:   bold;
-}
-
-.institution_result {
 	margin-left: 1em;
 }
 
-.skill {
-	margin-bottom: 1em;
-}
-
-.skill_title {
-	font-weight: bold;
-}
-
-.skill_list {
-	margin-block-start: 0;
-	margin-block-end:   0;
-}
-
-.experience {
-	margin-bottom: 1em;
-}
-
-.experience_title {
-	font-weight: bold;
-}
-
-.project {
-	margin-bottom: 1em;
-}
-
-.project_title {
-	
-}
-
-.project_title_name {
-	font-weight: bold;
+.year {
+	font-weight: normal;
 }
